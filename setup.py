@@ -3,7 +3,7 @@
 
 from distutils.core import setup, Extension
 
-Name    = 'horizontal_ruler'
+Name    = 'hr'
 Version = '0.0.0'
 
 with open( '{0}/version.py'.format( Name ), 'wt' ) as f:
@@ -18,7 +18,9 @@ setup(
     author_email = 'oldest.software.guy@gmail.com',
     packages     = [ Name ],
     scripts      = [
-        'horizontal_ruler/scripts/hr',
+        '{0}/scripts/{0}'.format(
+			Name
+		),
     ]
 )
 

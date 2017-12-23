@@ -2,6 +2,6 @@
 # vim: nonu noet ai sm ts=4 sw=4
 
 if __name__ == '__main__':
-    import	horizontal_ruler
-    hr = horizontal_ruler.HR()
+    import	hr
+    hr = hr.HR()
     sys.exit( hr.main() )
