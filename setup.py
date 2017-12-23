@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # vim: nonu noet ai sm ts=4 sw=4
 
-from distutils.core import setup, Extension
+from distutils.core import setup
 
 Name    = 'hr'
 Version = '0.0.0'
