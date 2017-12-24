@@ -1,0 +1,85 @@
+2017-12-24  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* setup.py: Bump revision number.
+
+2017-12-24  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* MANIFEST.in, README.md, hr/{___init__.py => __init__.py},
+	hr/scripts/hr, setup.py: Checkpoint
+
+2017-12-24  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* hr/___init__.py, setup.py: Checkpoint
+
+2017-12-24  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* hr/scripts/hr, setup.py: Revert to using setuptools to generate
+	the wrapper scripts.
+
+2017-12-24  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* hr/___init__.py, setup.py: Checkpoint
+
+2017-12-24  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* hr/scripts/hr: Minimalist form for jump script.
+
+2017-12-23  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* setup.py: Checkpoint
+
+2017-12-23  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* MANIFEST.in, README.md, {src/hr => hr}/___init__.py, {src/hr =>
+	hr}/scripts/hr, {src/hr => hr}/version.py, setup.py: Checkpoint
+
+2017-12-23  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* MANIFEST.in, setup.py: Checkpoint
+
+2017-12-23  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* {hr => src/hr}/___init__.py, {hr => src/hr}/scripts/hr, {hr =>
+	src/hr}/version.py: Checkpoint
+
+2017-12-23  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* setup.py: Checkpoint
+
+2017-12-23  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* {horizontal_ruler => hr}/___init__.py, {horizontal_ruler =>
+	hr}/scripts/hr, {horizontal_ruler => hr}/version.py, setup.py: OK,
+	it's going to be "hr"
+
+2017-12-22  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* {hr => horizontal_ruler}/___init__.py,
+	horizontal_ruler/scripts/hr, {hr => horizontal_ruler}/version.py,
+	hr/scripts/hr, setup.py: Renamed package to "horizontal_ruler" but
+	it didn't help.
+
+2017-12-22  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* hr/scripts/hr: Wrapper
+
+2017-12-22  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* MANIFEST.in: Updated
+
+2017-12-22  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* MANIFEST.in: Extra files
+
+2017-12-22  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* hr/version.py, setup.py: Checkpoint
+
+2017-12-22  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* hr/___init__.py: Imported
+
+2017-12-22  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* Basket of Deplorables
+
