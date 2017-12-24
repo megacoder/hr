@@ -1,4 +1,4 @@
 hr
 ==
 
-Horizontal line for terminal emulators
+Horizontal rules, for the console
