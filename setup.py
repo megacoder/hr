@@ -5,6 +5,7 @@ from setuptools import setup
 
 Name    = 'hr'
 Version = '0.0.0'
+CLI		= Name
 
 with open( '{0}/version.py'.format( Name ), 'wt' ) as f:
     print >>f, 'Version = "{0}"'.format( Version )
@@ -19,8 +20,9 @@ setup(
     packages     = [ Name ],
 	long_description = open( 'README.md' ).read(),
     scripts      = [
-        '{0}/scripts/{0}'.format(
-			Name
+        '{0}/scripts/{1}'.format(
+			Name,
+			CLI
 		),
     ]
 )

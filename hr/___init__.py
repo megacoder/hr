@@ -67,5 +67,4 @@ class	HR( object ):
 		return 0
 
 if __name__ == '__main__':
-	hr = HR()
-	sys.exit( hr.main() )
+	sys.exit( HR().main() )
