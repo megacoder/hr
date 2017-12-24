@@ -3,5 +3,4 @@
 
 if __name__ == '__main__':
     import	hr
-    hr = hr.HR()
-    sys.exit( hr.main() )
+    sys.exit( hr.HR().main() )
