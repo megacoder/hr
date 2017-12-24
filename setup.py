@@ -13,11 +13,11 @@ setup(
     name         = Name,
     version      = Version,
     description  = 'Horizontal rules for your terminal',
-	long_description = open( 'README.md' ).read(),
     url          = 'http://www.megacoder.com',
     author       = 'Tommy Reynolds',
     author_email = 'oldest.software.guy@gmail.com',
     packages     = [ Name ],
+	long_description = open( 'README.md' ).read(),
     scripts      = [
         '{0}/scripts/{0}'.format(
 			Name
