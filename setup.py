@@ -5,7 +5,6 @@ from setuptools import setup
 
 Name    = 'hr'
 Version = '0.0.0'
-Class   = Name.upper()
 CLI     = Name.lower()
 
 with open( '{0}/version.py'.format( Name ), 'wt' ) as f:
@@ -23,10 +22,9 @@ setup(
 	zip_safe         = True,
 	entry_points = {
 		'console_scripts' : [
-			'{0} = {1}.{2}:main'.format(
+			'{0} = {1}:main'.format(
 				CLI,
 				Name,
-				Class,
 			),
 		],
 	},
