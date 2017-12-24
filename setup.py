@@ -5,7 +5,8 @@ from setuptools import setup
 
 Name    = 'hr'
 Version = '0.0.0'
-CLI		= Name
+Class   = Name.upper()
+CLI     = Name.lower()
 
 with open( '{0}/version.py'.format( Name ), 'wt' ) as f:
     print >>f, 'Version = "{0}"'.format( Version )
@@ -19,11 +20,15 @@ setup(
     author_email = 'oldest.software.guy@gmail.com',
     packages     = [ Name ],
 	long_description = open( 'README.md' ).read(),
-    scripts      = [
-        '{0}/scripts/{1}'.format(
-			Name,
-			CLI
-		),
-    ]
+	zip_safe         = True,
+	entry_points = {
+		'console_scripts' : [
+			'{0} = {1}.{2}:main'.format(
+				CLI,
+				Name,
+				Class,
+			),
+		],
+	},
 )
 
