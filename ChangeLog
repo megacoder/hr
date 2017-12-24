@@ -1,5 +1,13 @@
 2017-12-24  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
 
+	* hr/__init__.py, hr/version.py, setup.py: Added output redirection.
+
+2017-12-24  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* ChangeLog: History
+
+2017-12-24  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
 	* setup.py: Bump revision number.
 
 2017-12-24  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
