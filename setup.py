@@ -4,7 +4,7 @@
 from setuptools import setup, find_packages
 
 Name    = 'hr'
-Version = '0.0.3'
+Version = '0.0.4'
 
 with open( '{0}/version.py'.format( Name ), 'wt' ) as f:
     print >>f, 'Version = "{0}"'.format( Version )

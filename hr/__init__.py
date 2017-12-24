@@ -23,6 +23,16 @@ def	main( ):
 			You were expecting, maybe, Valerie Perrine?
 		'''
 	)
+	default = None
+	p.add_argument(
+		'-o',
+		'--out',
+		dest    = 'out',
+		metavar = 'FILE',
+		default = default,
+		help    = 'write here if not stdout',
+	)
+	#
 	default = os.getenv( 'COLUMNS' )
 	if default and default.isdigit():
 		default = int(default)
@@ -53,6 +63,14 @@ def	main( ):
 		help    = 'patterns to use if not {0}'.format( default ),
 	)
 	opts = p.parse_args()
+	if opts.out:
+		try:
+			sys.stdout = open( opts.out, 'wt' )
+		except Exception, e:
+			print >>sys.stderr, 'Cannot redirect output to "{0}".'.format(
+				opts.out
+			)
+			raise e
 	for pattern in opts.patterns:
 		reps = int(
 			opts.width / len( pattern )
